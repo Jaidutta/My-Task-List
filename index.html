@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>My Task List</title>
+</head>
+<body>
+  <section class="container">
+    <article class="insert-input">
+      <h1 class="main-heading">Insert Task</h1>
+      <form id="task-form">
+        <input type="text" id="task" name="task" placeholder="Type and click the button below add new task">
+        <input type="submit" value="ADD TASK" class="btn">
+      </form>
+    </article>
+    <article class="display-tasks">
+      <h2 class="secondary-heading">All Tasks</h2>
+      <!-- <hr> -->
+      <h3 class="filter-text">Filter Tasks</h3>
+      <input type="text" name="filter" id="filter" placeholder="Filter Tasks">
+      <ul class="collection"></ul>
+        <a href="#" class="btn clear-tasks">CLEAR TASKS</a>
+    </article>
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
